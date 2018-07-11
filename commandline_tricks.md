@@ -31,8 +31,8 @@ A collection of useful (hopefully) less known tricks in the command line.
 - Find all directories (type d: directories, type f: files) on the system  
   find / -type d -name FASTQ
 
-- Find Last 50 Days Modified Files (see also ctime)  
-  find / -mtime 50
+- Find all the files that were modified in the last 50 days (see also ctime)  
+  find / -mtime -50
 
 - Find all files larger than 100MB in the file system and list them in long format  
   find / -size +100M -exec ls -lh {} \; 2>/dev/null
