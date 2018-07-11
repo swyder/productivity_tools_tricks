@@ -5,16 +5,16 @@
 
 ### University of Zurich
 ### URPP Evolution in Action
-![URPP logo](IMG/Logo_URPP_kl2.png)
+![URPP logo](Logo_URPP_kl2.png)
 
 Stefan Wyder  
 stefan.wyder@uzh.ch  
 
   
   
-## bash and the command line
+## command line tricks
 
-A collection of useful (hopefully) less known tricks.
+A collection of useful (hopefully) less known tricks in the command line.
 
 
 ## find file
@@ -51,11 +51,11 @@ find . -name "pattern" | parallel --dry-run command option {} {}.out
 
 ## Handy for fall cleaning
 
-alias space='du -h --max-depth=1 . | sort -h'
+`alias space='du -h --max-depth=1 . | sort -h'`
 
 ## Multi-threaded sorting
 
-GNU sort can be run multi-threaded: sort --parallel
+GNU sort can be run multi-threaded: `sort --parallel`
 
 ## Speed up grep for large files
 
@@ -98,7 +98,7 @@ See this [ggplot2](https://www.datascienceatthecommandline.com/chapter-7-explori
 
 
 ## Create an empty file in terminal
-### I am working mostly in the terminal and I don't like to change back and forth between keyboard and mouse
+I am working mostly in the terminal and I don't like to change back and forth between keyboard and mouse
 
 ```{bash}
 touch manuscript.docx  
